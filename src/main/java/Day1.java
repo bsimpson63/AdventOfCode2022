@@ -7,7 +7,7 @@ import java.util.*;
 
 public class Day1 {
     public static void main(String[] args) throws IOException {
-        var lines = Files.readAllLines(Path.of("src/main/java/Day1.input"));
+        var lines = Files.readAllLines(Path.of("src/main/resources/Day1.txt"));
 
         List<Integer> counts = new ArrayList<>();
         var count = 0;

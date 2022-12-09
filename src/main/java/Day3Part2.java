@@ -8,7 +8,7 @@ import java.util.HashSet;
 
 public class Day3Part2 {
     public static void main(String[] args) throws IOException {
-        var lines = Files.readAllLines(Path.of("src/main/java/Day3.txt"));
+        var lines = Files.readAllLines(Path.of("src/main/resources/Day3.txt"));
         var s = 0;
         var counts = new HashMap<Integer, HashSet<Character>>();
         for (var i = 0; i < 3; i++) {

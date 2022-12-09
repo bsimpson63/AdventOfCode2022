@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Day4Part2 {
     public static void main(String[] args) throws IOException {
-        var lines = Files.readAllLines(Path.of("src/main/java/Day4.txt"));
+        var lines = Files.readAllLines(Path.of("src/main/resources/Day4.txt"));
         var c = 0;
         for (var l : lines) {
             var pair = l.split(",");

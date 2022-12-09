@@ -11,7 +11,7 @@ public class Day8Part2 {
     public record Location (Integer x, Integer y) {}
 
     public static void main(String[] args) throws IOException {
-        var lines = Files.readAllLines(Path.of("src/main/java/Day8.txt"));
+        var lines = Files.readAllLines(Path.of("src/main/resources/Day8.txt"));
         var grid = new HashMap<Location, Integer>();
         for (var y = 0; y < lines.size(); y++) {
             var l = lines.get(y);

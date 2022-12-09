@@ -8,7 +8,7 @@ import java.util.HashMap;
 
 public class Day5Part1 {
     public static void main(String[] args) throws IOException {
-        var lines = Files.readAllLines(Path.of("src/main/java/Day5.txt"));
+        var lines = Files.readAllLines(Path.of("src/main/resources/Day5.txt"));
         var stacks = new HashMap<Integer, ArrayList<Character>>();
 
         var lineNum = 0;

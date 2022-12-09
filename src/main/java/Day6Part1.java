@@ -7,7 +7,7 @@ import java.util.HashSet;
 
 public class Day6Part1 {
     public static void main(String[] args) throws IOException {
-        var lines = Files.readAllLines(Path.of("src/main/java/Day6.txt"));
+        var lines = Files.readAllLines(Path.of("src/main/resources/Day6.txt"));
         var line = lines.get(0);
         for (var i = 0; i < line.length(); i++) {
             if (i < 3) continue;

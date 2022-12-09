@@ -7,7 +7,7 @@ import java.util.*;
 
 public class Day7Part2 {
     public static void main(String[] args) throws IOException {
-        var lines = Files.readAllLines(Path.of("src/main/java/Day7.txt"));
+        var lines = Files.readAllLines(Path.of("src/main/resources/Day7.txt"));
         var parsed = lines.stream().map(l -> l.split(" ")).toList();
         var pwd = new ArrayList<>();
         var directories = new HashMap<String, Integer>();

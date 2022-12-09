@@ -7,7 +7,7 @@ import java.util.Objects;
 
 public class Day2Part2 {
     public static void main(String[] args) throws IOException {
-        var lines = Files.readAllLines(Path.of("src/main/java/Day2.txt"));
+        var lines = Files.readAllLines(Path.of("src/main/resources/Day2.txt"));
         var score = 0;
         for (var l : lines) {
             var tokens = l.split(" ");
